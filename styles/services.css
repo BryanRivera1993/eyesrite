@@ -1,0 +1,25 @@
+.services {
+	width:46%;
+	float:left;
+	font-size:16px;
+}
+
+.kent {
+	background: url(assets/kentmap.gif) top no-repeat;
+	height: 271px;
+}
+
+.renton {
+	background: url(assets/renton.jpg) top no-repeat;
+	width: 271px;
+	height: 271px;
+}
+.services:last-child{
+	float:right;
+}
+
+@media (max-width: 40em) {
+	.services {
+		width:100%;
+	}
+}
